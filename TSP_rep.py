@@ -1,12 +1,9 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import math
 import numpy as np
 import geopy.distance
-import pandas as pd
 import csv
-import matplotlib.pyplot as plt
 
 """
  Euclidian distance operator. A and B, represented by tuples of coordinates, must belong to the same euclidean space.
