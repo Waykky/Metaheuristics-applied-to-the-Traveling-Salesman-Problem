@@ -11,6 +11,6 @@ from mpl_toolkits.basemap import basemap
 def geo_visualization( instance, solution ):
     fig = plt.figure( figsize=(12,12) )
     
-    min_coord = ( min(instance.cities_coordinates[:][0]), )
+    min_coord = ( min(instance.cities_coordinates[:][0]), min(instance.cities_coordinates[:][0]))
     
-    back_map = basemap( projection='merc', resolution=None, wid )
+    back_map = basemap( projection='merc', resolution=None, wid= )
